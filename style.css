@@ -1,0 +1,37 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color:#f1fbfd;
+  font-family: 'Lato', sans-serif;
+  font-size:36px;
+}
+
+#search {
+  width:80%;
+  height:auto;
+  background:linear-gradient(#caeaf2, #9cd0dc);
+  margin:50px auto 20px auto;
+  text-align:center;
+  border-radius:10px;
+  padding:2% 1%;
+}
+
+#search h1 {
+  color:#6aabba;
+  font-size:1.5em;
+  margin-bottom:20px;
+}
+
+#search input[type="text"] {
+  padding:5px 10px;
+  font-size:0.5em;
+  width:60%;
+}
+
+#search button {
+  padding:5px 10px;
+  font-size:0.5em;
+}
