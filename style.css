@@ -10,13 +10,13 @@ body {
 }
 
 #search {
-  width:80%;
-  height:auto;
   background:linear-gradient(#caeaf2, #9cd0dc);
-  margin:50px auto 20px auto;
-  text-align:center;
   border-radius:10px;
+  height:auto;
+  margin:50px auto 20px auto;
   padding:2% 1%;
+  text-align:center;
+  width:80%;
 }
 
 #search h1 {
@@ -26,12 +26,31 @@ body {
 }
 
 #search input[type="text"] {
-  padding:5px 10px;
   font-size:0.5em;
+  padding:5px 10px;
   width:60%;
 }
 
+.check {
+	border-color:red;
+	outline:red;
+}
+
 #search button {
-  padding:5px 10px;
   font-size:0.5em;
+  padding:5px 10px;
+}
+
+#display div {
+  background:linear-gradient(#caeaf2, #9cd0dc);
+  border-radius:10px;
+  height:auto;
+  margin:50px auto 20px auto;
+  padding:2% 1%;
+  text-align:center;
+  width:80%;
+}
+
+#display img {
+	width:150px;
 }
